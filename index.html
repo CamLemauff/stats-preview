@@ -2,32 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; color: white; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
 
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container">
+    <div class="stats_card">
+      <div class="stats_card_left">
+        <div class="card_title">Get <span class="purple_title">insights</span> that help</div>
+        <div class="card_title_bottom">your business grow.</div>
+        <div class="card_subtitle">Discover the benefits of data analytics and make</div>
+        <div class="card_subtitle">better decisions regarding revenue, customer </div>
+        <div class="card_subtitle">experience, and overall efficiency.</div>
+        <div class="card_stats">
+          <div class="stats">
+            <div class="stats_title">10k+</div>
+            <div class="stats_subtitle">companies</div>
+          </div>
+          <div class="stats">
+            <div class="stats_title">314</div>
+            <div class="stats_subtitle">templates</div>
+          </div>
+          <div class="stats">
+            <div class="stats_title">12m+</div>
+            <div class="stats_subtitle">queries</div>
+          </div>
+        </div>
+      </div>
+      <div class="stats_card_right">
+        <div class="image_card"></div>
+        <!-- <img class="image_card" src="images/image-header-desktop.jpg" alt="image desktop" /> -->
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
   </div>
+  
 </body>
 </html>
